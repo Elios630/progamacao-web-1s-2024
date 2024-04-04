@@ -20,10 +20,10 @@ transposta = transporMatriz(matrizOriginal);
 
 console.log("Matriz original:");
 for (let linha of matrizOriginal) {
-    console.log(linha.join("\t"));
+    console.log(linha);
 }
 
 console.log("\nMatriz transposta:");
 for (let linha of transposta) {
-    console.log(linha.join("\t"));
+    console.log(linha);
 }
